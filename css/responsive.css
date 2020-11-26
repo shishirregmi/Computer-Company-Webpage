@@ -1,0 +1,91 @@
+
+@media only screen and (max-width: 1085px) {
+    .logo{
+        width: 30%;
+    }
+    
+    .nav-items{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .main-content h1{
+        font-size: 3.75rem;
+    }
+    .main-content h2{
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media only screen and (max-height: 840px) {
+    .main-content h1{
+        font-size: 2.75rem;
+    }
+    .main-content h2{
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    .main-content{
+        margin: 5% 0 0 0;
+        text-align: center;
+    }
+    .header h1{
+        font-size: 1.8rem;
+    }
+
+    .sub-content h2{
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .logo{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+    
+    .nav-items{
+        width: 0%;
+        display: none;
+    }
+    
+    .nav{
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 880px) {
+    body {
+        overflow-x: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 880px) {
+    .hidden{
+        display: none;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .contact{
+        text-align: center;
+    }
+    .content{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-height: 565px) {
+    .main .container{
+        height: auto;
+    }
+}
