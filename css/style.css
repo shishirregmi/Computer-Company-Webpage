@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    max-width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;    
+    line-height: 1.6;
+}
+
+.main .container{
+    height: 100vh;
+    background: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+
+.nav{
+    max-width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    background-color: #010101;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;   
+    padding: 15px 15%;
+    display: flex;
+}
+
+.logo{
+    font-family: brush-script-std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    padding: 0;
+    font-size: 40px;
+    width: 25%;
+    width: 50%;
+}
+
+
+.logo img{
+    height : 50px;
+}
+
+.nav-items{
+    width: 50%;
+    padding: 15px 0;
+}
+
+.nav-items a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.main-content{
+    margin: 14% 0 0 0;
+    text-align: center;
+}
+
+.main-content h1{
+    font: normal normal bold 82px/123px Poppins;
+    position: relative;
+    text-shadow: 0px 10px 30px #000000;
+}
+
+.main-content h2{
+    text-align: center;
+    font: normal normal normal 37px/56px Poppins;
+    color: #FFFFFF;
+    text-shadow: 0px 10px 30px #000000FC;
+    margin: 50px 0 105px 0;
+}
+
+.main-content p{
+    margin: 30px;
+    font: normal normal medium 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFFA1;
+}
+
+.btn{
+    padding: 1rem 4rem;
+    border: 1px solid #707070;
+    border-radius: 32px;
+    text-decoration: none;
+    background: #2c29e9;
+    color: white;
+}
+
+.btn-primary{
+    background: #FF1616 0% 0% no-repeat padding-box;
+}
+
+.header{
+    text-align: center;
+    padding: 5px 0;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 15%;
+    justify-content: space-between;    
+    text-align: center;
+}
+
+.header h1{    
+    margin-top: 10px;
+    font-size: 2.5rem;
+}
+
+.content h2{
+    font-size: 2rem;
+}
+
+.content p{
+    font-size: 1.3rem;
+}
+
+.price-box{
+    border: 1px solid black;
+    border-radius: 59px;
+    height: auto;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.gradient-bg{
+    background: transparent linear-gradient(180deg, #D6D0D2 0%, #F3EDED) 0% 0% no-repeat padding-box;
+}
+
+.content hr{
+    width:70%;
+    margin: 10px 15%;
+}
+
+.news{    
+    text-align: left;
+}
+
+.sub-content{    
+    margin-bottom: 50px;
+}
+
+.news hr{
+    width:80%;
+    margin: 10px 0;
+}
+
+.news p{
+    font-size: 1.1rem;
+}
+
+.contact{
+    text-align: left;
+}
+
+.footer{
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #010101;
+    /* position: fixed; */
+    top: 0;   
+    padding: 15px 15%;
+    color: white;
+}
+
+@media only screen and (max-width: 1085px) {
+    .logo{
+        width: 30%;
+    }
+    
+    .nav-items{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .main-content h1{
+        font-size: 3.75rem;
+    }
+    .main-content h2{
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media only screen and (max-height: 840px) {
+    .main-content h1{
+        font-size: 2.75rem;
+    }
+    .main-content h2{
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    .main-content{
+        margin: 5% 0 0 0;
+        text-align: center;
+    }
+    .header h1{
+        font-size: 1.8rem;
+    }
+
+    .sub-content h2{
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .logo{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+    
+    .nav-items{
+        width: 0%;
+        display: none;
+    }
+    
+    .nav{
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 880px) {
+    body {
+        overflow-x: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 880px) {
+    .hidden{
+        display: none;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .contact{
+        text-align: center;
+    }
+    .content{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-height: 565px) {
+    .main .container{
+        height: auto;
+    }
+}
