@@ -106,6 +106,10 @@ body{
     background: #FF1616 0% 0% no-repeat padding-box;
 }
 
+.btn:hover{    
+    opacity: 75%;
+}
+
 .header{
     text-align: center;
     padding: 5px 0;
